@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+</head>
+<body>
+    <h1>用户登录</h1>
+    <!--
+    注意：这里想要被 security 进行识别出当前是登录界面中填写的信息的话
+    那么就要符合规范要求
+    -->
+    <form action="/doLogin" method="post">
+        用户名：<input type="text" name="username" > <br>
+        密码：<input type="password" name="password" > <br>
+        <input type="submit" value="登录" > <br>
+    </form>
+
+</body>
+</html>

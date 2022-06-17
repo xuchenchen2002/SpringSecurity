@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-security.iml" filepath="$PROJECT_DIR$/.idea/spring-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-01/spring-security-01.iml" filepath="$PROJECT_DIR$/spring-security-01/spring-security-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-02-myuserdetailservice/spring-security-02-myuserdetailservice.iml" filepath="$PROJECT_DIR$/spring-security-02-myuserdetailservice/spring-security-02-myuserdetailservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-03-split-login-verifycode/spring-security-03-split-login-verifycode.iml" filepath="$PROJECT_DIR$/spring-security-03-split-login-verifycode/spring-security-03-split-login-verifycode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-04-jwt/spring-security-04-jwt.iml" filepath="$PROJECT_DIR$/spring-security-04-jwt/spring-security-04-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-05-auth/spring-security-05-auth.iml" filepath="$PROJECT_DIR$/spring-security-05-auth/spring-security-05-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-06-password/spring-security-06-password.iml" filepath="$PROJECT_DIR$/spring-security-06-password/spring-security-06-password.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-07-split-remember-me/spring-security-07-split-remember-me.iml" filepath="$PROJECT_DIR$/spring-security-07-split-remember-me/spring-security-07-split-remember-me.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-08-exception/spring-security-08-exception.iml" filepath="$PROJECT_DIR$/spring-security-08-exception/spring-security-08-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-09-springboot-redis/spring-security-09-springboot-redis.iml" filepath="$PROJECT_DIR$/spring-security-09-springboot-redis/spring-security-09-springboot-redis.iml" />
+    </modules>
+  </component>
+</project>

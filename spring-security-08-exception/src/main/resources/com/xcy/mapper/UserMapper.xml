@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.xcy.mapper.UserMapper">
+
+    <!-- 查询单个用户：根据用户名查询用户 -->
+    <select id="loadUserByUsername" parameterType="String" resultType="user" >
+         select id,
+               username,
+               password,
+               enabled,
+               accountNonExpired,
+               accountNonLocked,
+               credentialsNonExpired
+        from user
+        where username = #{username}
+    </select>
+
+
+    <update id="updatePassword" >
+        update `user` set password = #{newPassword} where username = #{username}
+    </update>
+
+    <select id="queryAllUserHasRoleByUserId" parameterType="Integer" resultType="role">
+        select r.* from user_role ur, role r where uid = #{userId} and r.id=ur.rid;
+    </select>
+
+</mapper>

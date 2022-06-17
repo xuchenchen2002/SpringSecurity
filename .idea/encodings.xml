@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/spring-security-01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-02-myuserdetailservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-03-split-login-verifycode/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-04-jwt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-05-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-06-password/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-07-split-remember-me/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-08-exception/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-09-springboot-redis/src/main/java" charset="UTF-8" />
+  </component>
+</project>

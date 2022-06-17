@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-security-07-split-remember-me" />
+        <module name="spring-security-04-jwt" />
+        <module name="spring-security-02-myuserdetailservice" />
+        <module name="spring-security-06-password" />
+        <module name="spring-security-09-springboot-redis" />
+        <module name="spring-security-08-exception" />
+        <module name="spring-security-03-split-login-verifycode" />
+        <module name="spring-security-01" />
+        <module name="spring-security-05-auth" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-security-01" target="1.8" />
+      <module name="spring-security-02-myuserdetailservice" target="1.8" />
+      <module name="spring-security-03-split-login-verifycode" target="1.8" />
+      <module name="spring-security-04-jwt" target="1.8" />
+      <module name="spring-security-05-auth" target="1.8" />
+      <module name="spring-security-06-password" target="1.8" />
+      <module name="spring-security-07-split-remember-me" target="1.8" />
+      <module name="spring-security-08-exception" target="1.8" />
+      <module name="spring-security-09-springboot-redis" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-security-01" options="-parameters" />
+      <module name="spring-security-02-myuserdetailservice" options="-parameters" />
+      <module name="spring-security-03-split-login-verifycode" options="-parameters" />
+      <module name="spring-security-04-jwt" options="-parameters" />
+      <module name="spring-security-05-auth" options="-parameters" />
+      <module name="spring-security-06-password" options="-parameters" />
+      <module name="spring-security-07-split-remember-me" options="-parameters" />
+      <module name="spring-security-08-exception" options="-parameters" />
+      <module name="spring-security-09-springboot-redis" options="-parameters" />
+    </option>
+  </component>
+</project>
