@@ -95,9 +95,10 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
         http.authorizeRequests()
                 // 匹配 hello 和 login 请求是全部放行的
-                .mvcMatchers("/hello","/login").permitAll()
+                .mvcMatchers("/hello", "/login").permitAll()
                 .antMatchers("/admin").hasAnyRole("admin")
                 .antMatchers("/updateProduct").hasRole("product")
+
                 //.antMatchers("/user").hasRole("user")
                 .anyRequest().authenticated()
 

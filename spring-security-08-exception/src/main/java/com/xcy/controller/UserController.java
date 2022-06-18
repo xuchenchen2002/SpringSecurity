@@ -53,7 +53,10 @@ public class UserController {
     }
 
     @GetMapping("/user")
-    @PreAuthorize("hasRole('user')")
+//    @Secured("admin")
+//    @Secured("read_info")
+//    @PreAuthorize("hasRole('user')")
+    @PreAuthorize("hasAuthority('read_info')")
     public Result<String> user() {
         Result<String> res = new Result<>(200,"user，访问成功","user 查询成功");
         System.out.println("user run...");

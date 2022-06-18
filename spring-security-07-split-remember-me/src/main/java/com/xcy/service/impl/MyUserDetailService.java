@@ -22,7 +22,6 @@ public class MyUserDetailService implements UserDetailsService
 
     private final UserMapper userMapper;
 
-
     @Autowired
     public MyUserDetailService(UserMapper userMapper) {
         this.userMapper = userMapper;
@@ -50,6 +49,7 @@ public class MyUserDetailService implements UserDetailsService
         return user;
     }
 
+    // 注意了：在这里的很多东西都是 security 当中自动帮我们进行执行的买很多的东西都都是自动化
     /**
      * 执行密码自动升级的 service 业务层，具体就是
      * @param user 认证成功之后 从数据库中查询出来正确的用户信息
@@ -58,10 +58,10 @@ public class MyUserDetailService implements UserDetailsService
      */
     @Override
     public UserDetails updatePassword(UserDetails user, String newPassword) {
-        Integer row = userMapper.updatePassword(user.getUsername(),newPassword);
-        if(row == 1) {
+        Integer rows = userMapper.updatePassword(user.getUsername(), newPassword);
+        if (rows == 1) {
             // 密码更新成功
-            ((User)user).setPassword(newPassword);
+            ((User) user).setPassword(newPassword);
         }
         return user;
     }
